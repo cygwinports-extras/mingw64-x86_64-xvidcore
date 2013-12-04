@@ -21,7 +21,7 @@ src_compile() {
 	lndirs
 	cd ${B}/build/generic
 	CYGCONF_SOURCE=${B}/build/generic \
-	cygconf ac_cv_prog_ac_yasm=no
+	cygconf
 	cygmake
 }
 
